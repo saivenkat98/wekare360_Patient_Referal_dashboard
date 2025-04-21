@@ -20,19 +20,27 @@ This is a take-home assignment for a frontend engineering role at Wekare360. The
 
 ### 1. Clone the repo
 ```bash
-git clone [wekare360_Patient_Referal_dashboard](https://github.com/saivenkat98/wekare360_Patient_Referal_dashboard)
+git clone https://github.com/saivenkat98/wekare360_Patient_Referal_dashboard
 cd wekare360_Patient_Referal_dashboard
 ```
 
 ### 2. Install dependencies
 ```bash
+cd backend
+npm install
+
+cd ..
+
+cd frontend
 npm install
 ```
 
 ### 3. Start JSON server for mock data
 
 ```bash
+cd backend
 npx json-server --watch ../mock-data/db.json --port 3001
+npm start
 ```
 
 Make sure `patients.json` and `referrals.json` are merged into a valid `db.json` or served separately using custom routes.
