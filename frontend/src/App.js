@@ -95,9 +95,6 @@ const App = () => {
                 <div className={`arrow-step ${hoveredStage === i ? 'bg-purple-600 scale-[1.04]' : ''}`}>
                   <span className="arrow-label">Stage {i + 1}</span>
                 </div>
-                {/* <div className="absolute top-full mt-1 z-[9999] bg-purple-700 text-white text-xs px-2 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                  {e.event}
-                </div> */}
               </div>
             ))}
           </div>
