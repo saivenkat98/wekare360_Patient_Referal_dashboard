@@ -1,6 +1,6 @@
 # 🩺 Wekare360 - Referral Tracker Dashboard
 
-This is a take-home assignment for a frontend engineering role at Wekare360. The app simulates a mini-dashboard for tracking patient referrals through different stages.
+This is a POC assignment for a frontend engineering role at Wekare360. The app simulates a mini-dashboard for tracking patient referrals through different stages.
 
 ## 🔧 Tech Stack
 
